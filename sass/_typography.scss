@@ -1,0 +1,26 @@
+$primary-font: "Inter", sans-serif;
+$secondary-font: 'Playfair Display', serif;
+$third-font: 'Mulish', sans-serif;
+.heading{
+  font-family: $secondary-font;
+  color: $gray-darkest;
+  &--small{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(50 / 36);
+  }
+}
+.text{
+  font-weight: 300;
+  font-size: 17px;
+  color: $gray-darker;
+  line-height: calc(30 / 17);
+  font-family: $gray-color;
+}
+@media screen and (max-width: 767.98px) {
+  .header{
+    &--small{
+      font-size: 30px;
+    }
+  }
+}
